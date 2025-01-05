@@ -104,7 +104,7 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
 	color: #141414;
 	background-color: #B5B5B5;
 	border-radius:0 ;
