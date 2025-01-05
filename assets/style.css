@@ -84,8 +84,11 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 16px;
+	margin-bottom: 8px;
+	line-height: 1.2;
 }
-#about-me p {
+#about-me .about-me_texte {
 	width: 80%;
 	font-size: 14px;
 }
@@ -96,6 +99,7 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size: 28px;
 }
 .gallery .nav {
 	justify-content: center;
@@ -147,7 +151,9 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 40px;
+	margin-bottom: 8px;
+	line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
@@ -214,6 +220,9 @@ body {
 .form-container {
 	flex : 2;
 
+}
+.form-container h2{
+	font-size: 28px;
 }
 form {
 	display: flex;
