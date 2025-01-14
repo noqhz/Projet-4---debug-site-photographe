@@ -102,7 +102,7 @@ body {
 }
 .nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
 	color: #141414;
-	background-color: #B5B5B5;
+	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-link{
@@ -180,7 +180,6 @@ body {
 	justify-content: space-between;
 	display: flex;
 	padding : 2em 0;
-
 }
 
 .service {
@@ -193,6 +192,12 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+}
+
+.service__price p {
+	font-size: 24px;
+	line-height: 1.2;
+	margin-bottom: 8px;
 }
 
 #contact {
